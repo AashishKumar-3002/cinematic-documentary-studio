@@ -1,0 +1,34 @@
+from pathlib import Path
+import shutil
+root = Path(__file__).resolve().parents[1]
+p = root/'projects/studio-test'
+(p/'assets').mkdir(exist_ok=True)
+shutil.copy2(root/'node_modules/gsap/dist/gsap.min.js',p/'assets/gsap.min.js')
+(p/'DESIGN.md').write_text((root/'DESIGN.md').read_text(),encoding='utf-8')
+(p/'index.html').write_text('''<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Studio test</title>
+<script src="assets/gsap.min.js"></script><style>
+*{box-sizing:border-box;margin:0}html,body{width:1920px;height:1080px;overflow:hidden;background:#101B20}
+#root{width:100%;height:100%;color:#F4EBDD;background:#101B20}
+.content{width:1920px;height:1080px;padding:140px 192px;display:flex;flex-direction:column;justify-content:center;gap:38px}
+.eyebrow{font:28px 'Courier New',monospace;letter-spacing:7px;color:#E9AC77}
+h1{font:bold 116px Georgia,serif;line-height:1.12;max-width:1450px;letter-spacing:-3px}
+.rule{width:240px;height:5px;background:#E9AC77;transform-origin:left}
+.sub{font:32px 'Courier New',monospace;color:#BBCDD0;max-width:1400px;line-height:1.5}
+</style></head><body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="10" data-width="1920" data-height="1080">
+<div id="card" class="clip" data-start="0" data-duration="10" data-track-index="0"><div class="content">
+<div class="eyebrow">DOCUMENTARY STUDIO / 001</div><h1>Every extraordinary story begins with a question.</h1><div class="rule"></div><div class="sub">Research. Voice. Animation. All built here.</div>
+</div></div>
+<audio id="narration" class="clip" src="assets/narration.wav" data-start="0.6" data-duration="8.8" data-track-index="1"></audio>
+</div><script>
+window.__timelines=window.__timelines||{};
+const tl=gsap.timeline({paused:true});
+tl.fromTo('.eyebrow',{opacity:0,y:20},{opacity:1,y:0,duration:.7,ease:'power2.out'},.15)
+.fromTo('h1',{opacity:0,y:45},{opacity:1,y:0,duration:1,ease:'power3.out'},.35)
+.fromTo('.rule',{scaleX:0},{scaleX:1,duration:1,ease:'expo.out'},.7)
+.fromTo('.sub',{opacity:0,y:18},{opacity:1,y:0,duration:.8,ease:'sine.out'},1.05)
+.to('.content',{opacity:0,duration:.65,ease:'sine.in'},9.3);
+window.__timelines.main=tl;
+</script></body></html>''',encoding='utf-8')
+print('Test composition ready')

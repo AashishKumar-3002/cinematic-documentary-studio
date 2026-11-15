@@ -1,0 +1,43 @@
+{
+  "grade": "natural",
+  "photos": [
+    {
+      "id": "P01",
+      "what": "Lake Nyos, 1986; archival photograph, not footage of the release",
+      "kind": "photo",
+      "commons": "File:Lake Nyos 1986 001.jpg",
+      "file": "P01_Lake_Nyos_1986_001.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lake_Nyos_1986_001.jpg",
+      "credit": "Jack Lockwood",
+      "license": "Public domain",
+      "license_url": "",
+      "date": "1986",
+      "license_ok": true
+    },
+    {
+      "id": "P02",
+      "what": "Degassing installation, Lake Nyos, 2001; historical photograph",
+      "kind": "photo",
+      "commons": "File:Lake Nyos 2001.jpg",
+      "file": "P02_Lake_Nyos_2001.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Lake_Nyos_2001.jpg",
+      "credit": "Bill Evans",
+      "license": "Public domain",
+      "license_url": "",
+      "date": "2001",
+      "license_ok": true
+    },
+    {
+      "id": "P03",
+      "what": "Landsat-7 image of Lake Nyos, 5 February 2001",
+      "file": "P03_NASA_Landsat_2001.jpg",
+      "kind": "photo",
+      "source": "https://svs.gsfc.nasa.gov/2348/",
+      "credit": "NASA/Goddard Space Flight Center Scientific Visualization Studio",
+      "license": "Public domain (NASA imagery; no third-party copyright credit on the asset record)",
+      "license_url": "https://www.nasa.gov/nasa-brand-center/images-and-media/",
+      "license_ok": true,
+      "date": "2001-02-05"
+    }
+  ]
+}

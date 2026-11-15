@@ -1,0 +1,98 @@
+{
+  "title": "How Can a Lake Kill Without Flooding?",
+  "takes": [
+    {
+      "take": "T01_the_invisible_disaster",
+      "lines": [
+        {
+          "id": 1,
+          "text": "On an August evening in nineteen eighty-six, a lake in Cameroon released an invisible danger.",
+          "spoken": "On an August evening in nineteen eighty-six, a lake in Cameroon released an invisible danger.",
+          "hero": "archival lake photograph in darkness",
+          "typed": "CAMEROON / 1986",
+          "source_ids": [
+            "S1"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 2,
+          "text": "People did not have to touch the water.",
+          "spoken": "People did not have to touch the water.",
+          "hero": "camera moves from lake toward a schematic valley",
+          "typed": "BEYOND THE SHORE",
+          "source_ids": [
+            "S1"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 3,
+          "text": "The danger travelled through the air.",
+          "spoken": "The danger travelled through the air.",
+          "hero": "thin shaded gas layer follows the valley floor",
+          "typed": "ILLUSTRATIVE RECONSTRUCTION",
+          "source_ids": [
+            "S1"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 4,
+          "text": "More than seventeen hundred people died.",
+          "spoken": "More than seventeen hundred people died.",
+          "hero": "hold on a restrained casualty statement",
+          "typed": "MORE THAN 1,700 LIVES",
+          "source_ids": [
+            "S2"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 5,
+          "text": "The main killer was not floodwater, fire, or a flow of lava.",
+          "spoken": "The main killer was not floodwater, fire, or a flow of lava.",
+          "hero": "three simple hazards recede, leaving the lake",
+          "typed": "AN INVISIBLE HAZARD",
+          "source_ids": [
+            "S2"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 6,
+          "text": "It was carbon dioxide, released from the lake itself.",
+          "spoken": "It was carbon dioxide, released from the lake itself.",
+          "hero": "lake section reveals the gas reservoir",
+          "typed": "CO2",
+          "source_ids": [
+            "S2"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 7,
+          "text": "How can a lake make the air around it deadly?",
+          "spoken": "How can a lake make the air around it deadly?",
+          "hero": "pull back from valley to the lake and title",
+          "typed": "THE LAKE THAT EXHALED",
+          "source_ids": [
+            "S1"
+          ],
+          "gap_after": 0.9
+        },
+        {
+          "id": 8,
+          "text": "The answer begins beneath a surface that hides what is happening below.",
+          "spoken": "The answer begins beneath a surface that hides what is happening below.",
+          "hero": "camera crosses the surface into the section diagram",
+          "typed": "BELOW THE SURFACE",
+          "source_ids": [
+            "S3"
+          ],
+          "gap_after": 0.42
+        }
+      ]
+    }
+  ]
+}

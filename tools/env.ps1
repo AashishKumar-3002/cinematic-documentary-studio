@@ -1,0 +1,20 @@
+$studioRoot = Split-Path $PSScriptRoot -Parent
+$env:HYPERFRAMES_CACHE_DIR = Join-Path $studioRoot '.cache/hyperframes'
+$env:HYPERFRAMES_CONFIG_DIR = Join-Path $studioRoot '.cache/hyperframes-config'
+$env:HYPERFRAMES_NO_TELEMETRY = '1'
+$env:HF_HOME = Join-Path $studioRoot '.cache/huggingface'
+$env:HF_HUB_DISABLE_SYMLINKS_WARNING = '1'
+$env:PLAYWRIGHT_BROWSERS_PATH = Join-Path $studioRoot '.cache/playwright'
+$scraplingBrowser = Join-Path $studioRoot '.cache/playwright/chromium-1255/chrome-win64/chrome.exe'
+if (Test-Path $scraplingBrowser) { $env:SCRAPLING_EXECUTABLE_PATH = $scraplingBrowser }
+$env:PIP_CACHE_DIR = Join-Path $studioRoot '.cache/pip'
+$env:npm_config_cache = Join-Path $studioRoot '.cache/npm'
+$env:UV_CACHE_DIR = Join-Path $studioRoot '.cache/uv'
+$env:UV_PYTHON_INSTALL_DIR = Join-Path $studioRoot 'tools/python'
+$env:LAST30DAYS_CONFIG_DIR = Join-Path $studioRoot '.cache/last30days-config'
+$env:LAST30DAYS_MEMORY_DIR = Join-Path $studioRoot 'research/last30days'
+$env:LAST30DAYS_STORE = Join-Path $studioRoot '.cache/last30days/research.sqlite3'
+$env:TEMP = Join-Path $studioRoot '.cache/tmp'
+$env:TMP = $env:TEMP
+New-Item -ItemType Directory -Force $env:TEMP | Out-Null
+$env:PATH = "$studioRoot/tools/bin;$studioRoot/.venv/Scripts;$env:PATH"

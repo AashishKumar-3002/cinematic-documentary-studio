@@ -1,0 +1,18 @@
+{
+ "grade": "natural",
+ "photos": [
+  {
+   "id": "P01",
+   "what": "Lake Nyos, 1986; archival photograph, not footage of the release",
+   "kind": "photo",
+   "commons": "File:Lake Nyos 1986 001.jpg",
+   "file": "P01_Lake_Nyos_1986_001.jpg",
+   "source": "https://commons.wikimedia.org/wiki/File:Lake_Nyos_1986_001.jpg",
+   "credit": "Jack Lockwood",
+   "license": "Public domain",
+   "license_url": "",
+   "date": "1986",
+   "license_ok": true
+  }
+ ]
+}

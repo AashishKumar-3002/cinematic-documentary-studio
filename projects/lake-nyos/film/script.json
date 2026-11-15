@@ -1,0 +1,795 @@
+{
+  "title": "How Can a Lake Kill Without Flooding?",
+  "takes": [
+    {
+      "take": "T01_the_invisible_disaster",
+      "lines": [
+        {
+          "id": 1,
+          "text": "On an August evening in nineteen eighty-six, a lake in Cameroon released an invisible danger.",
+          "spoken": "On an August evening in nineteen eighty-six, a lake in Cameroon released an invisible danger.",
+          "hero": "archival lake photograph in darkness",
+          "typed": "CAMEROON / 1986",
+          "source_ids": [
+            "S1"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 2,
+          "text": "People did not have to touch the water.",
+          "spoken": "People did not have to touch the water.",
+          "hero": "camera moves from lake toward a schematic valley",
+          "typed": "BEYOND THE SHORE",
+          "source_ids": [
+            "S1"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 3,
+          "text": "The danger travelled through the air.",
+          "spoken": "The danger travelled through the air.",
+          "hero": "thin shaded gas layer follows the valley floor",
+          "typed": "ILLUSTRATIVE RECONSTRUCTION",
+          "source_ids": [
+            "S1"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 4,
+          "text": "More than seventeen hundred people died.",
+          "spoken": "More than seventeen hundred people died.",
+          "hero": "hold on a restrained casualty statement",
+          "typed": "MORE THAN 1,700 LIVES",
+          "source_ids": [
+            "S2"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 5,
+          "text": "The main killer was not floodwater, fire, or a flow of lava.",
+          "spoken": "The main killer was not floodwater, fire, or a flow of lava.",
+          "hero": "three simple hazards recede, leaving the lake",
+          "typed": "AN INVISIBLE HAZARD",
+          "source_ids": [
+            "S2"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 6,
+          "text": "It was carbon dioxide, released from the lake itself.",
+          "spoken": "It was carbon dioxide, released from the lake itself.",
+          "hero": "lake section reveals the gas reservoir",
+          "typed": "CO2",
+          "source_ids": [
+            "S2"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 7,
+          "text": "How can a lake make the air around it deadly?",
+          "spoken": "How can a lake make the air around it deadly?",
+          "hero": "pull back from valley to the lake and title",
+          "typed": "THE LAKE THAT EXHALED",
+          "source_ids": [
+            "S1"
+          ],
+          "gap_after": 0.9
+        },
+        {
+          "id": 8,
+          "text": "The answer begins beneath a surface that hides what is happening below.",
+          "spoken": "The answer begins beneath a surface that hides what is happening below.",
+          "hero": "camera crosses the surface into the section diagram",
+          "typed": "BELOW THE SURFACE",
+          "source_ids": [
+            "S3"
+          ],
+          "gap_after": 0.42
+        }
+      ]
+    },
+    {
+      "take": "T02_a_reservoir_beneath_the_water",
+      "lines": [
+        {
+          "id": 9,
+          "text": "Lake Nyos lies in northwestern Cameroon, in a landscape shaped by volcanic activity.",
+          "spoken": "Lake Nyos lies in northwestern Cameroon, in a landscape shaped by volcanic activity.",
+          "hero": "Africa and Cameroon locator map",
+          "typed": "LAKE NYOS / CAMEROON",
+          "source_ids": [
+            "S1"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 10,
+          "text": "The lake occupies a crater, but its water holds a less obvious connection to the ground.",
+          "spoken": "The lake occupies a crater, but its water holds a less obvious connection to the ground.",
+          "hero": "NASA satellite photograph with crater outline",
+          "typed": "CRATER LAKE",
+          "source_ids": [
+            "S1"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 11,
+          "text": "Carbon dioxide from deep geological sources enters the lake with groundwater.",
+          "spoken": "Carbon dioxide from deep geological sources enters the lake with groundwater.",
+          "hero": "subsurface flow paths, labelled schematic",
+          "typed": "GAS-BEARING GROUNDWATER",
+          "source_ids": [
+            "S1"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 12,
+          "text": "Here, the gas can dissolve in water, rather than immediately escaping into the sky.",
+          "spoken": "Here, the gas can dissolve in water, rather than immediately escaping into the sky.",
+          "hero": "molecule marks become dispersed through deep water",
+          "typed": "DISSOLVED GAS",
+          "source_ids": [
+            "S4"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 13,
+          "text": "Imagine a bottle of sparkling water before you open it.",
+          "spoken": "Imagine a bottle of sparkling water before you open it.",
+          "hero": "a small neutral bottle illustration next to the section",
+          "typed": "A PRESSURE ANALOGY",
+          "source_ids": [
+            "S4"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 14,
+          "text": "The liquid can hold gas that is not visible as a cloud of bubbles.",
+          "spoken": "The liquid can hold gas that is not visible as a cloud of bubbles.",
+          "hero": "bottle detail: dissolved marks, no enormous bubble",
+          "typed": "HELD IN SOLUTION",
+          "source_ids": [
+            "S4"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 15,
+          "text": "At Nyos, the weight of the water above helps keep gas dissolved at depth.",
+          "spoken": "At Nyos, the weight of the water above helps keep gas dissolved at depth.",
+          "hero": "water column with downward pressure arrows",
+          "typed": "PRESSURE INCREASES WITH DEPTH",
+          "source_ids": [
+            "S4"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 16,
+          "text": "The other part of the trap is the way the lake mixes.",
+          "spoken": "The other part of the trap is the way the lake mixes.",
+          "hero": "cross section divides into upper and lower layers",
+          "typed": "SEPARATE LAYERS",
+          "source_ids": [
+            "S3"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 17,
+          "text": "The surface can change while much deeper water remains isolated beneath it.",
+          "spoken": "The surface can change while much deeper water remains isolated beneath it.",
+          "hero": "animated upper currents above quiet lower water",
+          "typed": "SURFACE / DEEP WATER",
+          "source_ids": [
+            "S3"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 18,
+          "text": "Weak deep mixing allows dissolved carbon dioxide to accumulate in the lower layers.",
+          "spoken": "Weak deep mixing allows dissolved carbon dioxide to accumulate in the lower layers.",
+          "hero": "progressively denser dissolved-gas markers",
+          "typed": "GAS ACCUMULATES",
+          "source_ids": [
+            "S3"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 19,
+          "text": "That does not mean every deep lake is waiting to do the same thing.",
+          "spoken": "That does not mean every deep lake is waiting to do the same thing.",
+          "hero": "ordinary lake outlines fade behind highlighted exceptional case",
+          "typed": "AN UNUSUAL COMBINATION",
+          "source_ids": [
+            "S3"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 20,
+          "text": "Nyos combined a continuing gas supply with water that could store it.",
+          "spoken": "Nyos combined a continuing gas supply with water that could store it.",
+          "hero": "two pathways converge on one deep reservoir",
+          "typed": "SUPPLY + STORAGE",
+          "source_ids": [
+            "S3"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 21,
+          "text": "The important quantity was hidden below the surface, not written across the landscape.",
+          "spoken": "The important quantity was hidden below the surface, not written across the landscape.",
+          "hero": "satellite surface overlaid with a section window",
+          "typed": "A HIDDEN RESERVOIR",
+          "source_ids": [
+            "S3"
+          ],
+          "gap_after": 0.42
+        }
+      ]
+    },
+    {
+      "take": "T03_when_pressure_falls",
+      "lines": [
+        {
+          "id": 22,
+          "text": "Now imagine some of that gas-rich deep water moving upward.",
+          "spoken": "Now imagine some of that gas-rich deep water moving upward.",
+          "hero": "a highlighted parcel rises through the column",
+          "typed": "UPWARD MOVEMENT",
+          "source_ids": [
+            "S4"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 23,
+          "text": "As it rises, less water presses down on it.",
+          "spoken": "As it rises, less water presses down on it.",
+          "hero": "pressure arrows shorten above the rising parcel",
+          "typed": "PRESSURE FALLS",
+          "source_ids": [
+            "S4"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 24,
+          "text": "Gas can then come out of solution and form bubbles.",
+          "spoken": "Gas can then come out of solution and form bubbles.",
+          "hero": "dispersed marks gather into expanding circles",
+          "typed": "BUBBLES FORM",
+          "source_ids": [
+            "S4"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 25,
+          "text": "The analogy is opening that bottle: reduce the pressure, and the gas escapes.",
+          "spoken": "The analogy is opening that bottle: reduce the pressure, and the gas escapes.",
+          "hero": "bottle cap lifts beside matching rising bubbles",
+          "typed": "PRESSURE RELEASE",
+          "source_ids": [
+            "S4"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 26,
+          "text": "But the lake contains a much larger reservoir than a bottle on a table.",
+          "spoken": "But the lake contains a much larger reservoir than a bottle on a table.",
+          "hero": "camera pulls back to the entire deep lake",
+          "typed": "A LAKE-SCALE RESERVOIR",
+          "source_ids": [
+            "S4"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 27,
+          "text": "As bubbles expand, they can lift more water upward.",
+          "spoken": "As bubbles expand, they can lift more water upward.",
+          "hero": "bubble plume carries rising water arrows",
+          "typed": "BUBBLES LIFT WATER",
+          "source_ids": [
+            "S5"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 28,
+          "text": "That water encounters lower pressure, allowing more gas to separate from the liquid.",
+          "spoken": "That water encounters lower pressure, allowing more gas to separate from the liquid.",
+          "hero": "next parcel enters the plume",
+          "typed": "MORE GAS ESCAPES",
+          "source_ids": [
+            "S5"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 29,
+          "text": "More rising water can mean more bubbles, and more bubbles can mean more rising water.",
+          "spoken": "More rising water can mean more bubbles, and more bubbles can mean more rising water.",
+          "hero": "a restrained feedback loop animates over the section",
+          "typed": "A SELF-REINFORCING RELEASE",
+          "source_ids": [
+            "S5"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 30,
+          "text": "A slow accumulation can become a rapid release.",
+          "spoken": "A slow accumulation can become a rapid release.",
+          "hero": "reservoir changes from dissolved markers to an outward plume",
+          "typed": "SLOW BUILDUP / RAPID RELEASE",
+          "source_ids": [
+            "S5"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 31,
+          "text": "Scientists call this type of lake gas outburst a limnic eruption.",
+          "spoken": "Scientists call this type of lake gas outburst a limnic eruption.",
+          "hero": "scientific term appears beside the mechanism",
+          "typed": "LIMNIC ERUPTION",
+          "source_ids": [
+            "S5"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 32,
+          "text": "The word eruption can be misleading if it makes us picture a volcano throwing out lava.",
+          "spoken": "The word eruption can be misleading if it makes us picture a volcano throwing out lava.",
+          "hero": "small lava icon crosses out, gas pathway remains",
+          "typed": "GAS, NOT A LAVA FLOW",
+          "source_ids": [
+            "S2"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 33,
+          "text": "The investigation found no significant direct volcanic activity responsible for the disaster.",
+          "spoken": "The investigation found no significant direct volcanic activity responsible for the disaster.",
+          "hero": "evidence note backed by the investigation reference",
+          "typed": "INVESTIGATION: 1987",
+          "source_ids": [
+            "S2"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 34,
+          "text": "The gas had been stored in the water. The lake released that stored danger.",
+          "spoken": "The gas had been stored in the water. The lake released that stored danger.",
+          "hero": "camera returns to dissolved reservoir and upward path",
+          "typed": "STORED IN THE LAKE",
+          "source_ids": [
+            "S2"
+          ],
+          "gap_after": 0.42
+        }
+      ]
+    },
+    {
+      "take": "T04_a_cloud_follows_the_land",
+      "lines": [
+        {
+          "id": 35,
+          "text": "Once outside the water, the gas became a different kind of threat.",
+          "spoken": "Once outside the water, the gas became a different kind of threat.",
+          "hero": "cross section transitions to landscape profile",
+          "typed": "ABOVE THE WATER",
+          "source_ids": [
+            "S1"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 36,
+          "text": "A concentrated carbon dioxide cloud is denser than the surrounding air.",
+          "spoken": "A concentrated carbon dioxide cloud is denser than the surrounding air.",
+          "hero": "dense gas shading rests below lighter air",
+          "typed": "DENSER THAN AIR",
+          "source_ids": [
+            "S6"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 37,
+          "text": "It can flow downhill and collect in low ground.",
+          "spoken": "It can flow downhill and collect in low ground.",
+          "hero": "arrows follow the lower valley contour",
+          "typed": "DOWNHILL",
+          "source_ids": [
+            "S6"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 38,
+          "text": "The landscape that channels water can also help channel this invisible gas.",
+          "spoken": "The landscape that channels water can also help channel this invisible gas.",
+          "hero": "compare water route and gas route without drawing a flood",
+          "typed": "TERRAIN GUIDES THE FLOW",
+          "source_ids": [
+            "S6"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 39,
+          "text": "Carbon dioxide is part of ordinary air. At high concentrations, it is dangerous.",
+          "spoken": "Carbon dioxide is part of ordinary air. At high concentrations, it is dangerous.",
+          "hero": "normal versus concentrated schematic molecule density",
+          "typed": "CONCENTRATION MATTERS",
+          "source_ids": [
+            "S6"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 40,
+          "text": "Near Nyos, people died from carbon dioxide asphyxiation.",
+          "spoken": "Near Nyos, people died from carbon dioxide asphyxiation.",
+          "hero": "restrained text on the human impact, no bodies",
+          "typed": "THE HUMAN COST",
+          "source_ids": [
+            "S2"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 41,
+          "text": "The catastrophe reached communities beyond the lake shore.",
+          "spoken": "The catastrophe reached communities beyond the lake shore.",
+          "hero": "schematic settlement markers downstream, no exact village layout",
+          "typed": "COMMUNITIES DOWNSTREAM",
+          "source_ids": [
+            "S7"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 42,
+          "text": "NASA describes deadly effects as far as twenty-five kilometres away.",
+          "spoken": "NASA describes deadly effects as far as twenty-five kilometres away.",
+          "hero": "distance marker labelled reported extent rather than exact boundary",
+          "typed": "REPORTED EFFECTS: UP TO 25 KM",
+          "source_ids": [
+            "S7"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 43,
+          "text": "That distance is a reminder: this was not simply an accident confined to the water.",
+          "spoken": "That distance is a reminder: this was not simply an accident confined to the water.",
+          "hero": "pull back across lake, valley and community markers",
+          "typed": "ONE CONNECTED LANDSCAPE",
+          "source_ids": [
+            "S7"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 44,
+          "text": "And an invisible gas gives no visible boundary for a person to recognize.",
+          "spoken": "And an invisible gas gives no visible boundary for a person to recognize.",
+          "hero": "shaded diagram layer switches to a transparent contour",
+          "typed": "GAS SHADING IS AN ILLUSTRATION",
+          "source_ids": [
+            "S6"
+          ],
+          "gap_after": 0.42
+        }
+      ]
+    },
+    {
+      "take": "T05_what_the_evidence_can_tell_us",
+      "lines": [
+        {
+          "id": 45,
+          "text": "After the disaster, researchers had to distinguish several possible explanations.",
+          "spoken": "After the disaster, researchers had to distinguish several possible explanations.",
+          "hero": "investigation board with a lake section and samples",
+          "typed": "FOLLOWING THE EVIDENCE",
+          "source_ids": [
+            "S2"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 46,
+          "text": "They studied the lake water, the gases, and the geological setting.",
+          "spoken": "They studied the lake water, the gases, and the geological setting.",
+          "hero": "water-sample, gas-sample and geology symbols linked to source",
+          "typed": "WATER / GAS / GEOLOGY",
+          "source_ids": [
+            "S2"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 47,
+          "text": "Their evidence identified carbon dioxide and connected its origin to deep magmatic sources.",
+          "spoken": "Their evidence identified carbon dioxide and connected its origin to deep magmatic sources.",
+          "hero": "source path connects earth to dissolved gas",
+          "typed": "DEEP GEOLOGICAL ORIGIN",
+          "source_ids": [
+            "S2"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 48,
+          "text": "But the source of the gas is not the same question as the trigger.",
+          "spoken": "But the source of the gas is not the same question as the trigger.",
+          "hero": "separate origin and trigger pathways",
+          "typed": "ORIGIN IS NOT TRIGGER",
+          "source_ids": [
+            "S8"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 49,
+          "text": "What precisely started the release that night remains uncertain.",
+          "spoken": "What precisely started the release that night remains uncertain.",
+          "hero": "an open question sits at the start of the mechanism",
+          "typed": "PRECISE TRIGGER: UNCERTAIN",
+          "source_ids": [
+            "S8"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 50,
+          "text": "Researchers have proposed different mechanisms for disturbing or destabilizing gas-rich water.",
+          "spoken": "Researchers have proposed different mechanisms for disturbing or destabilizing gas-rich water.",
+          "hero": "several lightly drawn possible disturbances, marked hypotheses",
+          "typed": "PROPOSED MECHANISMS",
+          "source_ids": [
+            "S8"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 51,
+          "text": "A diagram can explain how a release grows without proving which trigger actually occurred.",
+          "spoken": "A diagram can explain how a release grows without proving which trigger actually occurred.",
+          "hero": "mechanism solid line; initiating event dashed line",
+          "typed": "MECHANISM / UNCERTAINTY",
+          "source_ids": [
+            "S8"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 52,
+          "text": "So we should not present one dramatic landslide or earthquake as an established scene.",
+          "spoken": "So we should not present one dramatic landslide or earthquake as an established scene.",
+          "hero": "hypothesis icons recede instead of staged disaster footage",
+          "typed": "DO NOT INVENT CERTAINTY",
+          "source_ids": [
+            "S8"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 53,
+          "text": "The evidence supports the reservoir and the release. The exact first push is another matter.",
+          "spoken": "The evidence supports the reservoir and the release. The exact first push is another matter.",
+          "hero": "return to confirmed reservoir and outflow with open starting node",
+          "typed": "KNOWN / NOT ESTABLISHED",
+          "source_ids": [
+            "S8"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 54,
+          "text": "There was also a practical question: how could the stored gas be removed more safely?",
+          "spoken": "There was also a practical question: how could the stored gas be removed more safely?",
+          "hero": "camera follows reservoir toward a narrow pipe outline",
+          "typed": "FROM EXPLANATION TO PREVENTION",
+          "source_ids": [
+            "S9"
+          ],
+          "gap_after": 0.42
+        }
+      ]
+    },
+    {
+      "take": "T06_letting_the_lake_breathe",
+      "lines": [
+        {
+          "id": 55,
+          "text": "Controlled degassing began at Lake Nyos in two thousand and one.",
+          "spoken": "Controlled degassing began at Lake Nyos in two thousand and one.",
+          "hero": "archival 2001 degassing photograph",
+          "typed": "CONTROLLED DEGASSING / 2001",
+          "source_ids": [
+            "S9"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 56,
+          "text": "A pipe draws gas-rich water from deep in the lake toward the surface.",
+          "spoken": "A pipe draws gas-rich water from deep in the lake toward the surface.",
+          "hero": "section diagram with pipe intake in lower water",
+          "typed": "DEEP-WATER INTAKE",
+          "source_ids": [
+            "S9"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 57,
+          "text": "As the water rises inside, pressure drops and dissolved gas forms bubbles.",
+          "spoken": "As the water rises inside, pressure drops and dissolved gas forms bubbles.",
+          "hero": "bubbles emerge progressively inside the pipe",
+          "typed": "CONTROLLED PRESSURE DROP",
+          "source_ids": [
+            "S9"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 58,
+          "text": "The expanding bubbles help lift the water, allowing the flow to sustain itself under suitable conditions.",
+          "spoken": "The expanding bubbles help lift the water, allowing the flow to sustain itself under suitable conditions.",
+          "hero": "upward flow reaches the outlet",
+          "typed": "GAS-LIFT FLOW",
+          "source_ids": [
+            "S9"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 59,
+          "text": "The pipe uses the same pressure change that makes an uncontrolled release dangerous.",
+          "spoken": "The pipe uses the same pressure change that makes an uncontrolled release dangerous.",
+          "hero": "compare bounded pipe flow to broad eruption plume",
+          "typed": "THE SAME PHYSICS",
+          "source_ids": [
+            "S9"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 60,
+          "text": "The difference is that gas is released through a controlled pathway.",
+          "spoken": "The difference is that gas is released through a controlled pathway.",
+          "hero": "pipe stays highlighted, surrounding reservoir remains contained",
+          "typed": "CONTROLLED RELEASE",
+          "source_ids": [
+            "S9"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 61,
+          "text": "Researchers measured the response rather than assuming the intervention was harmless.",
+          "spoken": "Researchers measured the response rather than assuming the intervention was harmless.",
+          "hero": "measurement profiles appear beside the pipe",
+          "typed": "MEASURE / CHECK / ADJUST",
+          "source_ids": [
+            "S10"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 62,
+          "text": "Studies found gas reductions and no dangerous destabilization from the degassing they observed.",
+          "spoken": "Studies found gas reductions and no dangerous destabilization from the degassing they observed.",
+          "hero": "archival source identifiers beside a declining conceptual reservoir",
+          "typed": "OBSERVED REDUCTION",
+          "source_ids": [
+            "S10"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 63,
+          "text": "But gas can continue entering the lake, so removal is not a reason to stop monitoring.",
+          "spoken": "But gas can continue entering the lake, so removal is not a reason to stop monitoring.",
+          "hero": "inflow arrow remains while pipe removes gas",
+          "typed": "RECHARGE CONTINUES",
+          "source_ids": [
+            "S10"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 64,
+          "text": "This is a history of an engineering response, not a live safety assessment of Nyos today.",
+          "spoken": "This is a history of an engineering response, not a live safety assessment of Nyos today.",
+          "hero": "dated timeline ends without a present-day safety badge",
+          "typed": "HISTORICAL ACCOUNT",
+          "source_ids": [
+            "S10"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 65,
+          "text": "A lake can become deadly without sending a flood through a village.",
+          "spoken": "A lake can become deadly without sending a flood through a village.",
+          "hero": "return to calm lake image with transparent gas path",
+          "typed": "THE ANSWER WAS IN THE WATER",
+          "source_ids": [
+            "S1"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 66,
+          "text": "At Nyos, gas accumulated below, escaped upward, and moved into the air people were breathing.",
+          "spoken": "At Nyos, gas accumulated below, escaped upward, and moved into the air people were breathing.",
+          "hero": "whole explanatory board: supply, storage, release, terrain",
+          "typed": "SUPPLY / STORAGE / RELEASE",
+          "source_ids": [
+            "S5"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 67,
+          "text": "Understanding that hidden process made a response possible.",
+          "spoken": "Understanding that hidden process made a response possible.",
+          "hero": "final pipe and reservoir connection",
+          "typed": "UNDERSTANDING CHANGES THE RESPONSE",
+          "source_ids": [
+            "S10"
+          ],
+          "gap_after": 0.42
+        },
+        {
+          "id": 68,
+          "text": "The surface was only the part of the story we could see.",
+          "spoken": "The surface was only the part of the story we could see.",
+          "hero": "final close on archival lake surface, fade to credits",
+          "typed": "LAKE NYOS / REMEMBERING THOSE LOST",
+          "source_ids": [
+            "S1"
+          ],
+          "gap_after": 0.42
+        }
+      ]
+    }
+  ],
+  "fact_notes": [
+    "S1: Date, northwestern Cameroon, crater, geological CO2 supply, broad event framing. https://science.nasa.gov/earth-science/programs/research-analysis/lake-nyos-cameroon/",
+    "S2: At least 1700 deaths, CO2 asphyxiation, dissolved reservoir, magmatic origin, no significant direct volcanic activity. https://pubmed.ncbi.nlm.nih.gov/17789781/",
+    "S3: Weak deep mixing, persistent lower-water isolation, gradual dissolved CO2 buildup; rarity. https://www.usgs.gov/publications/comparative-limnology-lakes-nyos-and-monoun-cameroon",
+    "S4: Physical explanation of CO2-driven release; pressure/bubble mechanism. Bottle is an explanatory analogy, not an assertion of identical systems. https://www.nature.com/articles/379057a0",
+    "S5: Dissolved gas, release dynamics, triggering hypotheses; model-specific predictions not adopted. https://hub.hku.hk/bitstream/10722/80916/1/content.pdf",
+    "S6: Lake Nyos CO2 hazard and its behaviour after release; general concentration/terrain explanation. https://archive.ipcc.ch/pdf/special-reports/srccs/srccs_chapter6.pdf",
+    "S7: Reported deadly effects as far as 25 km; Landsat imagery dated 2001-02-05. https://svs.gsfc.nasa.gov/2348/",
+    "S8: Trigger unknown in investigation; later proposed mechanisms remain hypotheses, not a witnessed reconstruction. https://sites.lsa.umich.edu/gwk/wp-content/uploads/sites/647/2018/09/Kling_etal_Science1987.pdf",
+    "S9: Nyos degassing started in 2001; gas removal, pipe operation and changing rates. https://pmc.ncbi.nlm.nih.gov/articles/PMC1242283/",
+    "S10: Measured gas reduction, no dangerous water-column destabilization observed; continued gas recharge and monitoring. https://www.usgs.gov/publications/degassing-lakes-nyos-and-monoun-defusing-certain-disaster"
+  ]
+}

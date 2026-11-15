@@ -1,0 +1,28 @@
+{
+  "name": "cinematic-documentary-studio",
+  "version": "1.0.0",
+  "scripts": {
+    "hf": "powershell -NoProfile -File tools/hf.ps1",
+    "check": "python tools/check_repository.py",
+    "render:test": "powershell -NoProfile -File tools/hf.ps1 render projects/studio-test --output ../../output/studio-test.mp4 --workers 1",
+    "test": "python -m unittest discover -s tools/tests -v",
+    "check:html": "powershell -NoProfile -File tools/hf.ps1 check projects/studio-test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "Local-first animated documentary production with Python, Skia, local narration and optional HTML video tools",
+  "dependencies": {
+    "gsap": "3.15.1",
+    "hyperframes": "0.9.52",
+    "three": "0.169.0"
+  },
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AashishKumar-3002/cinematic-documentary-studio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AashishKumar-3002/cinematic-documentary-studio/issues"
+  }
+}

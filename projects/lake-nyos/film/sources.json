@@ -1,0 +1,57 @@
+{
+  "S1": {
+    "title": "NASA Science: Lake Nyos, Cameroon",
+    "url": "https://science.nasa.gov/earth-science/programs/research-analysis/lake-nyos-cameroon/",
+    "supports": "Date, northwestern Cameroon, crater, geological CO2 supply, broad event framing."
+  },
+  "S2": {
+    "title": "Kling et al. (1987), Science: The 1986 Lake Nyos Gas Disaster",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17789781/",
+    "doi": "10.1126/science.236.4798.169",
+    "supports": "At least 1700 deaths, CO2 asphyxiation, dissolved reservoir, magmatic origin, no significant direct volcanic activity."
+  },
+  "S3": {
+    "title": "Kling, Evans & Tanyileke (2015): Comparative limnology",
+    "url": "https://www.usgs.gov/publications/comparative-limnology-lakes-nyos-and-monoun-cameroon",
+    "supports": "Weak deep mixing, persistent lower-water isolation, gradual dissolved CO2 buildup; rarity."
+  },
+  "S4": {
+    "title": "Zhang (1996): Dynamics of CO2-driven lake eruptions",
+    "url": "https://www.nature.com/articles/379057a0",
+    "doi": "10.1038/379057a0",
+    "supports": "Physical explanation of CO2-driven release; pressure/bubble mechanism. Bottle is an explanatory analogy, not an assertion of identical systems."
+  },
+  "S5": {
+    "title": "Chan, Kwok & Mak (1996): A model of gas buildup and release in crater lakes",
+    "url": "https://hub.hku.hk/bitstream/10722/80916/1/content.pdf",
+    "supports": "Dissolved gas, release dynamics, triggering hypotheses; model-specific predictions not adopted."
+  },
+  "S6": {
+    "title": "IPCC Special Report on Carbon Dioxide Capture and Storage, chapter 6, box 6.7",
+    "url": "https://archive.ipcc.ch/pdf/special-reports/srccs/srccs_chapter6.pdf",
+    "supports": "Lake Nyos CO2 hazard and its behaviour after release; general concentration/terrain explanation."
+  },
+  "S7": {
+    "title": "NASA SVS: Lake Nyos Zoom-in (2002)",
+    "url": "https://svs.gsfc.nasa.gov/2348/",
+    "supports": "Reported deadly effects as far as 25 km; Landsat imagery dated 2001-02-05."
+  },
+  "S8": {
+    "title": "Kling et al. (1987), full paper; and Cotel (1999), A trigger mechanism",
+    "url": "https://sites.lsa.umich.edu/gwk/wp-content/uploads/sites/647/2018/09/Kling_etal_Science1987.pdf",
+    "additional_url": "https://www.sciencedirect.com/science/article/pii/S0377027399000177",
+    "supports": "Trigger unknown in investigation; later proposed mechanisms remain hypotheses, not a witnessed reconstruction."
+  },
+  "S9": {
+    "title": "Kling et al. (2005): Degassing Lakes Nyos and Monoun",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1242283/",
+    "doi": "10.1073/pnas.0502274102",
+    "supports": "Nyos degassing started in 2001; gas removal, pipe operation and changing rates."
+  },
+  "S10": {
+    "title": "USGS 2005 degassing findings and 2015 comparative limnology",
+    "url": "https://www.usgs.gov/publications/degassing-lakes-nyos-and-monoun-defusing-certain-disaster",
+    "additional_url": "https://www.usgs.gov/publications/comparative-limnology-lakes-nyos-and-monoun-cameroon",
+    "supports": "Measured gas reduction, no dangerous water-column destabilization observed; continued gas recharge and monitoring."
+  }
+}

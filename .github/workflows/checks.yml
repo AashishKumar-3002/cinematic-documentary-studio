@@ -1,0 +1,23 @@
+name: Source checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  source:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v7.1.0
+        with:
+          python-version: '3.11'
+      - run: python tools/check_repository.py
+      - name: Check bash entry points
+        run: bash -n tools/setup.sh tools/env.sh tools/hf.sh
+      - name: Check zsh entry points
+        if: runner.os == 'macOS'
+        run: zsh -n tools/setup.zsh tools/env.zsh
+      - run: python -m pip install google-api-python-client==2.202.0 google-auth-oauthlib==1.5.0
+      - run: python -m unittest discover -s tools/tests -v

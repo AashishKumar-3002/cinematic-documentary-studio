@@ -1,0 +1,38 @@
+{
+  "audience": "global",
+  "narration_language": "English",
+  "tools_budget": "free local tools; no paid API without authorization",
+  "primary_workflow": ".agents/skills/cinematic-film/SKILL.md",
+  "supporting_workflow": "HyperFrames when useful",
+  "voice": {
+    "engine": "Kokoro ONNX",
+    "name": "af_heart",
+    "language": "en-us",
+    "speed": 0.90,
+    "continuous": true,
+    "sentence_pause": 0.42,
+    "clause_pause": 0.13,
+    "generation_unit": "one complete chapter per call",
+    "user_feedback": "A Daniel too fast; B Michael okayish; C Heart good; C opening approved"
+  },
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "workers": 6,
+    "encoder_threads": 2,
+    "encoder_lookahead": 10
+  },
+  "creative_references": "Optional guidance, adapted per story",
+  "updates": "Report each production milestone and status during long exports",
+  "packaging": "User delegates thumbnail choice; make a clear, accurate promise and measure actual audience response",
+  "production_learning": {
+    "reference": ".agents/skills/documentary-production-playbook/SKILL.md#user-feedback-to-carry-into-future-documentaries",
+    "priorities": [
+      "Stronger engagement through scripting, pacing and expressive narration",
+      "Spoken-word visual interaction: highlights, circles, arrows, reveals and other explanatory emphasis",
+      "Purposeful effects and synchronized sound for scene changes, writing and important moments"
+    ],
+    "scope": "Apply from the next documentary; do not regenerate the Lake Nyos pilot for this feedback"
+  }
+}

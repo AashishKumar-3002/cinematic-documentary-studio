@@ -1,0 +1,66 @@
+.venv/
+node_modules/
+.cache/
+models/
+output/
+**/.hyperframes/
+**/renders/
+*.env
+client_secret*.json
+token.json
+credentials/
+tools/python/
+tools/bin/
+.research-venv/
+
+# Local configuration, downloaded references and research material
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+**/__pycache__/
+*.py[cod]
+learned/
+research/
+reference/
+tools/gh/
+
+# Generated episode media and machine-specific run records
+projects/**/audio/
+projects/**/out/
+projects/**/assets/
+projects/**/fonts/
+projects/**/release/
+projects/**/STATUS.md
+*.mp4
+*.mov
+*.wav
+*.m4a
+*.onnx
+*.bin
+*.log
+*.zip
+*.7z
+
+# Publish the licensed primary engine and original studio guidance only.
+# Other locally installed skills remain in the workspace, outside this distribution.
+.agents/skills/*
+!.agents/skills/cinematic-film/
+!.agents/skills/documentary-production-playbook/
+!.agents/skills/youtube-management/
+tools/learn.ps1
+tools/last30days.ps1
+**/.thumbnails/
+**/.waveform-cache/
+projects/**/CLAUDE.md
+projects/**/AGENTS.md
+projects/**/transcript.json
+# Retain only the native pilot under this episode's root.
+projects/lake-nyos/index.html
+projects/lake-nyos/hyperframes.json
+projects/lake-nyos/meta.json
+projects/lake-nyos/package.json
+projects/lake-nyos/film/sfx_cues.json
