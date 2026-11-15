@@ -45,14 +45,7 @@ projects/**/STATUS.md
 *.zip
 *.7z
 
-# Publish the licensed primary engine and original studio guidance only.
-# Other locally installed skills remain in the workspace, outside this distribution.
-.agents/skills/*
-!.agents/skills/cinematic-film/
-!.agents/skills/documentary-production-playbook/
-!.agents/skills/youtube-management/
-tools/learn.ps1
-tools/last30days.ps1
+# All skill source folders are shared; runtime data and downloads remain ignored.
 **/.thumbnails/
 **/.waveform-cache/
 projects/**/CLAUDE.md

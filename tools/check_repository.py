@@ -13,7 +13,7 @@ def main():
     paths=sorted(set(p for p in result.stdout.decode('utf-8').split('\0') if p))
     forbidden={'.venv','.research-venv','node_modules','.cache','models','credentials','learned','reference','research','__pycache__','.thumbnails','.waveform-cache'}
     secrets=[r'-----BEGIN (?:RSA |EC |OPENSSH )?PRIVATE KEY-----',r'\b(?:ghp|gho|ghu|ghs)_[A-Za-z0-9]{30,}\b',r'\bgithub_pat_[A-Za-z0-9_]{40,}\b',r'\bAIza[A-Za-z0-9_-]{35}\b']
-    errors=[];total=0;python_count=0
+    errors=[];total=0;python_count=0;deferred_python=0
     for rel in paths:
         path=ROOT/rel;parts=Path(rel).parts
         if not path.is_file():continue
@@ -23,17 +23,21 @@ def main():
             errors.append(f'Generated/binary/reference file in publication set: {rel}')
         size=path.stat().st_size;total+=size
         if size>5*1024*1024:errors.append(f'File exceeds 5 MB source-publication limit: {rel}')
-        if path.suffix.lower() in {'.py','.md','.json','.ps1','.sh','.zsh','.txt','.yml','.yaml','.html'} or path.name in {'LICENSE','.gitignore','.gitattributes'}:
+        if path.suffix.lower() in {'.py','.md','.json','.ps1','.sh','.zsh','.txt','.yml','.yaml','.html','.js','.mjs','.cjs','.ts','.tsx','.css','.svg','.rst','.toml'} or path.name in {'LICENSE','.gitignore','.gitattributes'}:
             text=path.read_text(encoding='utf-8-sig')
             if any(re.search(pattern,text) for pattern in secrets):errors.append(f'Possible embedded credential: {rel} (value withheld)')
             if path.suffix in {'.sh','.zsh'} and b'\r' in path.read_bytes():errors.append(f'Unix shell script needs LF line endings: {rel}')
             if path.suffix=='.py':
-                try:ast.parse(text,filename=rel);python_count+=1
-                except SyntaxError as exc:errors.append(f'Python syntax: {rel}:{exc.lineno}')
+                if rel.startswith('.agents/skills/last30days/') and sys.version_info<(3,12):
+                    deferred_python+=1
+                else:
+                    try:ast.parse(text,filename=rel);python_count+=1
+                    except SyntaxError as exc:errors.append(f'Python syntax: {rel}:{exc.lineno}')
             if path.suffix=='.json':
                 try:json.loads(text)
                 except json.JSONDecodeError as exc:errors.append(f'JSON syntax: {rel}:{exc.lineno}')
     print(f'Publication set: {len(paths)} files, {total/1024/1024:.2f} MB; {python_count} Python files checked')
+    if deferred_python:print(f'Last30Days: {deferred_python} source files need Python 3.12+ for syntax validation; rerun this checker with that interpreter.')
     if errors:
         print('\n'.join(errors));return 1
     print('PASS: syntax/JSON, file-size rules, excluded-directory rules and credential-pattern check')

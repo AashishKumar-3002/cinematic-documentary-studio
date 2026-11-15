@@ -12,10 +12,10 @@ jobs:
       - uses: actions/checkout@v7.0.1
       - uses: actions/setup-python@v7.1.0
         with:
-          python-version: '3.11'
+          python-version: '3.12'
       - run: python tools/check_repository.py
       - name: Check bash entry points
-        run: bash -n tools/setup.sh tools/env.sh tools/hf.sh
+        run: bash -n tools/setup.sh tools/env.sh tools/hf.sh tools/learn.sh tools/last30days.sh tools/setup-research.sh
       - name: Check zsh entry points
         if: runner.os == 'macOS'
         run: zsh -n tools/setup.zsh tools/env.zsh

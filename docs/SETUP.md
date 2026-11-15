@@ -31,9 +31,9 @@ The first installs npm dependencies using `package-lock.json`. The second instal
 
 ## What is included in Git
 
-Source code, project scripts/storyboards, image-source manifests, licence notices, selected original skills, the licensed cinematic engine, and a small documentation preview are included. Virtual environments, model weights, executables, caches, downloaded transcripts, reference PDFs, original downloaded photographs, narration and rendered films are excluded.
+Source code, project scripts/storyboards, image-source manifests, licence notices, all 18 project skills, the licensed cinematic engine, and a small documentation preview are included. Virtual environments, model weights, executables, caches, downloaded transcripts, reference PDFs, original downloaded photographs, narration and rendered films are excluded.
 
-Other locally installed optional skills are not part of this distribution. Obtain any additional skills directly from their authors after reading their instructions and licence. This repository's core example uses the included cinematic-film engine.
+The [skill catalogue](SKILLS.md) lists all bundled skills and their optional dependencies. This repository's core example uses cinematic-film; other skills are available for supporting workflows. Last30Days uses its own Python 3.12+ research environment so the core studio can remain on Python 3.11.
 
 ## macOS and Linux / zsh or bash
 

@@ -121,14 +121,14 @@ Tutorial techniques are flexible references. The pilot is a learning example, an
 ./tools/setup.ps1 -WithResearch   # Scrapling, yt-dlp and a local Chromium browser
 ```
 
-Optional research tooling does not grant access to blocked or authenticated sources. Additional third-party skills and personal learning archives from the original workstation are outside this distribution; obtain optional skills directly from their authors.
+All **18 project skills** are bundled under [`.agents/skills/`](.agents/skills), including Open 3D, HyperFrames, Learn, Last30Days, Scrapling and the saved animation/editing references. See the [skill catalogue and setup commands](docs/SKILLS.md) for each skill's purpose, provenance and prerequisites. Skill instructions do not automatically install every optional provider integration or grant access to authenticated/paid sources. Personal learning archives and reference PDFs remain outside the distribution.
 
 YouTube integration is separate. Each user connects their own account and verifies the intended channel. Cloning, setup and local rendering do not authenticate, upload or publish. See [publishing setup](docs/PUBLISHING.md).
 
 ## Repository layout
 
 ```text
-.agents/skills/          Licensed cinematic engine and original studio guidance
+.agents/skills/          All 18 project skills, source scripts and licence notices
 docs/                   Setup, pilot rebuild and publishing documentation
 projects/lake-nyos/      Example script, sources, storyboard, scene and feedback
 projects/studio-test/    Optional HTML composition smoke test

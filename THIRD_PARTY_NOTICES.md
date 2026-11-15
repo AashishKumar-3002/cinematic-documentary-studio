@@ -37,6 +37,16 @@ The pilot downloads images from Wikimedia Commons and NASA using the records in 
 
 `docs/assets/pilot-preview.jpg` combines studio-rendered graphics with the credited archival lake photograph. The original downloaded media, generated audio and films are not distributed in the Git repository. Rebuilding an episode downloads its source media and regenerates its credits ledger.
 
+## Additional bundled skills
+
+- The eight Open 3D skill folders originate from [Moh4696/open-3d-skills](https://github.com/Moh4696/open-3d-skills), copyright (c) 2026 exploraX, MIT licensed. Each folder retains a copy of the upstream licence.
+- `hyperframes` and `hyperframes-cli` originate from [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes), distributed under Apache-2.0. Each folder includes the upstream licence. The installed CLI version used to obtain the skills was 0.9.52.
+- `last30days` is the installed 3.39.0 skill snapshot from [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill), copyright (c) 2026 Matt Van Horn, MIT licensed. Its licence and the nested bird-search vendor licence are retained.
+- `scrapling-official` retains its supplied [BSD-3-Clause notice](.agents/skills/scrapling-official/LICENSE.txt), copyright (c) 2024 Karim shoair.
+- `learn`, `animation-style-library`, `atmospheric-scene-direction`, `documentary-production-playbook` and `youtube-management` contain studio-authored implementation/guidance. The Learn workflow credits setup material supplied by the project owner; its bundled helper is the studio implementation, not the original Claude-only installer. Style and editing notes credit their source guides/videos; the Moss Keeper reference credits the inspected repository. The root MIT licence covers original studio contributions, not the referenced third-party source materials.
+
+See [the full skill catalogue](docs/SKILLS.md) and [source manifest](.agents/skills/SOURCES.json). Bundling a skill does not convey rights to external footage, illustrations, downloaded models or paid provider services.
+
 ## References outside the distribution
 
-Locally installed optional skills, downloaded tutorial transcripts, the supplied animation-guide PDF and inspected third-party repository copies are excluded. They are not relicensed or republished here. The production playbook contains attributed, independently worded guidance and direct project feedback; it does not bundle the tutorials themselves.
+Downloaded tutorial transcripts, the supplied animation-guide PDF and inspected third-party repository copies are excluded. They are not relicensed or republished here. The production playbook contains attributed, independently worded guidance and direct project feedback; it does not bundle the tutorials themselves.

@@ -1,0 +1,113 @@
+{
+  "skills": [
+    {
+      "skill": "alpha-cutout",
+      "source": "https://github.com/Moh4696/open-3d-skills",
+      "license": "MIT",
+      "skill_sha256": "c21a8045c66993b5630ea2a014b13a47ef375194a8d2dce8da2dd8a507988536"
+    },
+    {
+      "skill": "animation-style-library",
+      "source": "studio-authored guidance or implementation",
+      "license": "MIT for original studio contributions",
+      "skill_sha256": "d76636ffe4a1d1cb243c3083c907fe40bdf2d4c13c14c2cabeb0d06d472dc1f1"
+    },
+    {
+      "skill": "atmospheric-scene-direction",
+      "source": "studio-authored guidance or implementation",
+      "license": "MIT for original studio contributions",
+      "skill_sha256": "afa74d37e027b6459b571a9c1b172fba0fdaf84e6d2ca578891274f0df22f361"
+    },
+    {
+      "skill": "cinematic-film",
+      "source": "https://github.com/Moh4696/cinematic-skill",
+      "license": "MIT",
+      "skill_sha256": "671407707a6788bb0d62adc2f49875fee6e984ce66141336729c916882d159c5"
+    },
+    {
+      "skill": "cursor-rig",
+      "source": "https://github.com/Moh4696/open-3d-skills",
+      "license": "MIT",
+      "skill_sha256": "5bce506cd7b33f5d912f3d4d81849e066542ca6329c5610812e0b5472ce74a8b"
+    },
+    {
+      "skill": "documentary-production-playbook",
+      "source": "studio-authored guidance or implementation",
+      "license": "MIT for original studio contributions",
+      "skill_sha256": "187cdcda25a342a4ae0b65555cd45e4b4b69a771f67c738156d42ed9b72391dd"
+    },
+    {
+      "skill": "exploded-view",
+      "source": "https://github.com/Moh4696/open-3d-skills",
+      "license": "MIT",
+      "skill_sha256": "02002c545c93c129ab26f5994a26595426519e1b12da1e366878d14d60699967"
+    },
+    {
+      "skill": "frame-capture",
+      "source": "https://github.com/Moh4696/open-3d-skills",
+      "license": "MIT",
+      "skill_sha256": "bc9294667d1b9199b6c314701605b49041afe3a33988255b45318ac645b5afb1"
+    },
+    {
+      "skill": "hyperframes",
+      "source": "https://github.com/heygen-com/hyperframes",
+      "license": "Apache-2.0",
+      "skill_sha256": "85afaf987ee74bdb022bb952857695ccaabf2137f3a3924bbfa9aad81a436243"
+    },
+    {
+      "skill": "hyperframes-cli",
+      "source": "https://github.com/heygen-com/hyperframes",
+      "license": "Apache-2.0",
+      "skill_sha256": "781e76ee191fdffbaccf3575b44db5872c965103a8864f438170967052ddb89d"
+    },
+    {
+      "skill": "last30days",
+      "source": "https://github.com/mvanhorn/last30days-skill",
+      "license": "MIT; nested vendor licence retained",
+      "skill_sha256": "f5e9cba2a06d1d3804c6bc73bf50bdd6136e6c847cb38cd9db6692323200085c"
+    },
+    {
+      "skill": "learn",
+      "source": "studio-authored guidance or implementation",
+      "license": "MIT for original studio contributions",
+      "skill_sha256": "1157ed7ad0d8c21d19937507803a0099c64b3f04fe76b27728cdc45aa55fd8f2"
+    },
+    {
+      "skill": "motion-assets",
+      "source": "https://github.com/Moh4696/open-3d-skills",
+      "license": "MIT",
+      "skill_sha256": "fcffebcd5c05ee3d5ab7ecf5af739d04aca492493532d5408e97273b1e34497d"
+    },
+    {
+      "skill": "scrapling-official",
+      "source": "https://github.com/D4Vinci/Scrapling",
+      "license": "BSD-3-Clause",
+      "skill_sha256": "4abd1323dae85d3ebbaf7fb486ba8ffb15b2f60ae7d684a8df1e22130401b665"
+    },
+    {
+      "skill": "scroll-film",
+      "source": "https://github.com/Moh4696/open-3d-skills",
+      "license": "MIT",
+      "skill_sha256": "60ccb91e82787260ecb941c9795dc91a31a5ee4ee9df3079883e81cebc75b799"
+    },
+    {
+      "skill": "site-check",
+      "source": "https://github.com/Moh4696/open-3d-skills",
+      "license": "MIT",
+      "skill_sha256": "7a239ccdbacb86bfc581b728bab32b6f1b8f53f40a164029cfcce58d20897ca9"
+    },
+    {
+      "skill": "threejs-scene",
+      "source": "https://github.com/Moh4696/open-3d-skills",
+      "license": "MIT",
+      "skill_sha256": "54329406dc8d63034dd64772d9b13c9c3faa25e5ebea96c6b6a27f5d61d83c92"
+    },
+    {
+      "skill": "youtube-management",
+      "source": "studio-authored guidance or implementation",
+      "license": "MIT for original studio contributions",
+      "skill_sha256": "12dee4cd2427edd7e8f28ddc41af9f423b779fbaa5eec9e4ef513b5d656ade94"
+    }
+  ],
+  "notes": "Sources describe provenance; original reference PDFs, transcripts and films are not bundled."
+}
